@@ -1,0 +1,70 @@
+.box1{
+    border: 2px solid  rgb(20, 102, 125);
+    width: 300px;
+    height: 300px;
+    background-color: rgb(20, 102, 125);
+
+
+    transform: rotate(45deg);
+    transition: 5s;
+
+    &:hover {
+        transform: rotate(360deg);
+        
+    }
+   
+}
+.box2{
+    border: 2px solid red;
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    border-radius: 50%;
+
+    transform: scale(50%);
+    transition: 1s;
+
+
+    &:hover{
+        transform: scale(100%);
+
+    }
+}
+.box3{
+    border: 2px solid greenyellow;
+    width: 250px;
+    height: 550px;
+    background-color: greenyellow;
+    transition: 1s;
+
+
+    &:hover{
+        background-color: yellow;
+        background-color: aqua;
+    }
+
+}
+.box4{
+
+    border: 2px solid brown;
+    width: 300px;
+    height: 300px;
+    background-color: brown;
+
+    transform: rotate(45deg);
+    transition: 1s;
+
+    &:hover {
+        transform: rotate(90deg);
+
+    }
+   
+}
+.wrap{
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+    align-items: center;
+}
+
+
